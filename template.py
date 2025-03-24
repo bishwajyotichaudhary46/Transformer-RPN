@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:(%message)s')
 
-project_name = "Transformer-RPN"
+project_name = "Transformer_RPN"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
