@@ -4,5 +4,7 @@ pandas
 ipykernel
 from_root
 tqdm
+matplotlib
+seaborn
 
 -e .
