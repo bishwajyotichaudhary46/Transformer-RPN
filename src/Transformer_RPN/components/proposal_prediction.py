@@ -24,8 +24,8 @@ class ProposalPrediction:
        
         
         
-        dw = torch.clamp(dw, max=math.log(1000.0 / 16))
-        dh = torch.clamp(dh, max=math.log(1000.0 / 16))
+        dw = torch.clamp(dw, max=math.log(8000.0 / 16))
+        dh = torch.clamp(dh, max=math.log(8000.0 / 16))
         
         pred_center_x = dx * w[:, None] + center_x[:, None]
         pred_center_y = dy * h[:, None] + center_y[:, None]

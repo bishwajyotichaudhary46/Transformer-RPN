@@ -20,4 +20,19 @@ rpn_params:
   rpn_train_topk: 2000
   rpn_test_topk: 300
   input_channels: 768
+
+roi_params:
+  num_classes: 6
+  roi_batch_size: 128
+  fc_inner_dim: 1024
+  roi_iou_threshold : 0.5
+  roi_low_bg_iou : 0.0 
+  roi_pool_size : 7
+  roi_nms_threshold : 0.3
+  roi_topk_detections : 100
+  roi_score_threshold : 0.05
+  roi_batch_size : 128
+  roi_pos_fraction : 0.25
+
+
   
