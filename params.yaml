@@ -1,0 +1,23 @@
+vision_model_params:
+  embedding_dim: 768
+  key_dim: 64
+  num_head: 12
+  patch_size: 16
+  image_size: 224
+  drop_out: 0.1
+  num_layer: 12
+  channel_size: 3
+
+rpn_params:
+  scales: [128, 256, 512]
+  ascpect_ratios: [0.5, 1, 2]
+  low_iou_threshold: 0.3
+  high_iou_threshold: 0.7
+  rpn_nms_threshold: 0.7
+  rpn_batch_size: 256
+  rpn_prenms_train_topk: 12000
+  rpn_prenms_test_topk: 3000
+  rpn_train_topk: 2000
+  rpn_test_topk: 300
+  input_channels: 768
+  

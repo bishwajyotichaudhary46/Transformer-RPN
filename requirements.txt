@@ -6,5 +6,8 @@ from_root
 tqdm
 matplotlib
 seaborn
+ensure==1.0.2
+pyYAML
+types-PyYAML
 
 -e .

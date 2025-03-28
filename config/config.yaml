@@ -1,1 +1,6 @@
-ram: "bishwa"
+data_ingestion:
+  img_dir: Data/Strawberry data/strawberry_data
+  xml_dir: Data/Strawberry data/strawberry_labels
+  class: ['angular_leafspot', 'anthracnose_fruit_rot', 'gray_mold', 'leaf_scorch', 'leaf_spot']
+
+  
